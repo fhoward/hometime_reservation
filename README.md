@@ -23,9 +23,9 @@ look for proper error handling, tests, clear documentation, etc...
 
 # TASK BASED ON INSTRUCTION
 - create git repo .DONE
-- identify the columns of 2 table based on the payload
-- create model reservation belongs_to 
-- create model Guest has_many
+- identify the columns of 2 table based on the payload. DONE
+- create model reservation belongs_to.DONE
+- create model Guest has_many.DONE
 - create test 
 - create one api endpoint 
 - create controller that accept both payload format
