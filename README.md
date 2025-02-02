@@ -1,24 +1,53 @@
-# README
+# Instructions
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+1. Start a Ruby on Rails project that is purely an API app.
+2. Create one API endpoint that can accept both payload formats. See payloads
+at the end of this document.
+3. Your code should not require any additional headers or parameters to
+distinguish between the 2 payloads.
+4. Parse and save the payloads to a Reservation model that belongs to a Guest
+model. Guest email field should be uniqu
+5. Add a README file to the root of your repository with clear instructions on h
+to set up and run your app.
+6. Your submission should be available in a public git repository of your choice.
+Alternatively, you can submit a zipped folder of your source code.
 
-Things you may want to cover:
+# Expectations
+1. Readable and maintainable code - use your preferred convention on
+separating the different logics, and put them in their appropriate places.
+2. Scalable code - your code must demonstrate a clear path forward in the event
+a third payload is introduced.
+3. Use of standard practices - treat your submission as production ready. We’ll
+look for proper error handling, tests, clear documentation, etc...
 
-* Ruby version
 
-* System dependencies
+# TASK BASED ON INSTRUCTION
+- create git repo .DONE
+- identify the columns of 2 table based on the payload
+- create model reservation belongs_to 
+- create model Guest has_many
+- create test 
+- create one api endpoint 
+- create controller that accept both payload format
+- code should not have additional headers or parameters to distinguish between 2 payloads
 
-* Configuration
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+GUEST
+ - first_name
+ - last_name
+ - phone_numbers
+ - email
+RESERVATIONS
+ - start_date
+ - end_date
+ - nights
+ - guests
+ - adults
+ - children
+ - infants
+ - status
+ - currency
+ - payout_price
+ - security_price
+ - total_price
+ - guest_id
