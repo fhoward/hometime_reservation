@@ -22,12 +22,12 @@ look for proper error handling, tests, clear documentation, etc...
 
 
 # TASK BASED ON INSTRUCTION
-~~- create git repo .DONE~~
-~~- identify the columns of 2 table based on the payload. DONE~~
-~~- create model reservation belongs_to.DONE~~
-~~- create model Guest has_many.DONE~~
+- ~~create git repo .DONE~~
+- ~~identify the columns of 2 table based on the payload. DONE~~
+- ~~create model reservation belongs_to.DONE~~
+- ~~create model Guest has_many.DONE~~
 - create test 
-- create one api endpoint 
+- ~~create one api endpoint~~
 - create controller that accept both payload format
 - code should not have additional headers or parameters to distinguish between 2 payloads
 
