@@ -154,11 +154,13 @@ look for proper error handling, tests, clear documentation, etc...
 - ~~Add readme Instruction how to set up and run your app~~
 
 # TABLE MAPPING
+
 GUEST
  - first_name
  - last_name
  - phone_numbers
  - email
+
 RESERVATIONS
  - start_date
  - end_date
